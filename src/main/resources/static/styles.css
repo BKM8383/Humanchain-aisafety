@@ -1,0 +1,97 @@
+:root {
+    --primary-color: #4361ee;
+    --secondary-color: #3a0ca3;
+    --success-color: #4cc9f0;
+    --danger-color: #f72585;
+    --warning-color: #ff9e00;
+    --light-color: #f8f9fa;
+    --dark-color: #212529;
+}
+
+body {
+    background-color: #f5f7fb;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar {
+    background-color: var(--primary-color);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card {
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+.btn-primary:hover {
+    background-color: var(--secondary-color);
+    border-color: var(--secondary-color);
+}
+
+.badge-high {
+    background-color: var(--danger-color);
+    color: white;
+}
+
+.badge-medium {
+    background-color: var(--warning-color);
+    color: white;
+}
+
+.badge-low {
+    background-color: var(--success-color);
+    color: white;
+}
+
+.table th {
+    font-weight: 600;
+    color: var(--dark-color);
+}
+
+.incident-row {
+    cursor: pointer;
+}
+
+.incident-row:hover {
+    background-color: rgba(67, 97, 238, 0.05);
+}
+
+.modal-content {
+    border-radius: 10px;
+    border: none;
+}
+
+.modal-header {
+    border-bottom: 1px solid #eaeaea;
+}
+
+.modal-footer {
+    border-top: 1px solid #eaeaea;
+}
+
+.badge {
+    padding: 8px 12px;
+    border-radius: 6px;
+    font-weight: 500;
+}
+
+.incident-details h4 {
+    margin-bottom: 1rem;
+    color: var(--dark-color);
+}
+
+.incident-details p {
+    line-height: 1.6;
+    color: #555;
+}
