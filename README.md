@@ -1,6 +1,6 @@
 # HumanChain AI Safety Incident Log API
 
-A Spring Boot application for logging and managing AI safety incidents, developed as part of a take-home assignment for HumanChain.
+A Spring Boot application for logging and managing AI safety incidents, developed as part of a take-home assignment for Sparklehood.
 
 **Live Demo:** [https://ai-safety-incident-log.onrender.com/](https://ai-safety-incident-log.onrender.com/)
 
@@ -70,8 +70,8 @@ No additional setup required. The application will create an in-memory H2 databa
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/BKM8383/Humanchain-aisafety.git
-   cd Humanchain-aisafety
+   git clone https://github.com/BKM8383/HumanChain-aisafety.git
+   cd HumanChain-aisafety
    ```
 
 2. Build the project:
@@ -219,4 +219,4 @@ Fields:
 
 ---
 
-Created as part of a take-home assignment for HumanChain, an AI safety startup, focused on demonstrating backend development skills in API design, request handling, and data persistence.
+Created as part of a take-home assignment for Sparklehood, an AI safety startup, focused on demonstrating backend development skills in API design, request handling, and data persistence.
