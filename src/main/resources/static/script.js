@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
     // Base URL for API requests
-    const API_BASE_URL = 'https://your-render-app-name.onrender.com/api';
+    const API_BASE_URL = 'https://ai-safety-incident-log.onrender.com/api';
     
     // Elements
     const incidentsTableBody = document.getElementById('incidentsTableBody');
